@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-grill.jpg";
-import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => (
@@ -10,10 +10,18 @@ const Hero = () => (
       <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/50 to-charcoal/80" />
     </div>
     <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <motion.img
+        src={logo}
+        alt="Grilování s láskou logo"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6 }}
+        className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-6 drop-shadow-2xl"
+      />
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.6, delay: 0.1 }}
         className="text-amber font-body text-lg tracking-[0.3em] uppercase mb-4"
       >
         Catering & Grilování
@@ -21,11 +29,11 @@ const Hero = () => (
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-charcoal-foreground leading-tight mb-6"
+        transition={{ duration: 0.8, delay: 0.25 }}
+        className="text-5xl md:text-7xl lg:text-8xl font-display font-extrabold text-charcoal-foreground leading-tight mb-6 uppercase tracking-tight"
       >
         Grilování{" "}
-        <span className="italic text-amber">s láskou</span>
+        <span className="text-amber">s láskou</span>
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
