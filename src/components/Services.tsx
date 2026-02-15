@@ -39,8 +39,8 @@ const Services = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-3">Co nabízíme</p>
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground">
-          Naše <span className="italic text-primary">služby</span>
+        <h2 className="text-4xl md:text-5xl font-display font-extrabold text-foreground uppercase tracking-tight">
+          Naše <span className="text-primary">služby</span>
         </h2>
       </motion.div>
       <div className="grid md:grid-cols-3 gap-8">

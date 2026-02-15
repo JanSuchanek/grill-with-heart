@@ -4,7 +4,9 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "#sluzby", label: "Služby" },
+  { href: "#galerie", label: "Galerie" },
   { href: "#o-nas", label: "O nás" },
+  { href: "#recenze", label: "Recenze" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
@@ -15,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-charcoal/90 backdrop-blur-md border-b border-charcoal-foreground/10">
       <div className="container max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
         <a href="#" className="font-display text-xl font-bold text-charcoal-foreground">
-          Grilování <span className="italic text-amber">s láskou</span>
+          Grilování <span className="text-amber">s láskou</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (

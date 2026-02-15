@@ -13,8 +13,8 @@ const Contact = () => (
         className="text-center mb-12"
       >
         <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-3">Kontaktujte nás</p>
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-          Poptejte nás na vaši <span className="italic text-primary">akci</span>
+        <h2 className="text-4xl md:text-5xl font-display font-extrabold text-foreground mb-4 uppercase tracking-tight">
+          Poptejte nás na vaši <span className="text-primary">akci</span>
         </h2>
         <p className="text-muted-foreground text-lg font-light max-w-xl mx-auto">
           Cenovou nabídku vám vždy vyladíme na míru. Odpovíme vám do 24 hodin.

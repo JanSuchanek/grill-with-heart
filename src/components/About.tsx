@@ -19,8 +19,8 @@ const About = () => (
           transition={{ duration: 0.7 }}
         >
           <p className="text-amber font-body text-sm tracking-[0.3em] uppercase mb-3">O nás</p>
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            Vášeň pro <span className="italic text-amber">grilování</span>
+          <h2 className="text-4xl md:text-5xl font-display font-extrabold mb-6 uppercase tracking-tight">
+            Vášeň pro <span className="text-amber">grilování</span>
           </h2>
           <p className="text-charcoal-foreground/80 leading-relaxed mb-6 font-light text-lg">
             Jsme tým nadšených grilmasterů, kteří věří, že skvělé jídlo spojuje lidi.
